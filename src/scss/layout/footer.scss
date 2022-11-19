@@ -1,0 +1,38 @@
+.footer {
+  padding: 177px 0px 0px 0px;
+
+  &__conteiner {
+    height: 54px;
+    background: #efefef;
+    padding: 0px 30px 0px 30px;
+    margin: 0 0 0px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+._ {
+}
+.footer__logo {
+}
+.footer__menu {
+}
+.footer__menu__list {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  li {
+    margin: 0px 0px 0px 45px;
+  }
+}
+
+.sosial {
+  display: flex;
+  li {
+    margin: 0px 0px 0px 13px;
+  }
+}
+
+// @media (max-width: 700px) {
+//   margin: 0 0 25px 0;
+// }

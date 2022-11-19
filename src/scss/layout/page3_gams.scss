@@ -1,0 +1,23 @@
+.page3 {
+  padding: 0px 0px 0px 97px;
+  width: 63%;
+  height: 942px;
+  background: #d3d1e9;
+  @media (max-width: 1025px) {
+    width: 91%;
+    height: 135%;
+  }
+}
+
+.button__game {
+  padding: 22px 0px 19px 16px;
+  width: 192px;
+  height: 94px;
+  display: flex;
+}
+.arrowPage3 {
+  font-size: 42px;
+  color: rgb(255 255 255);
+  transform: rotate(-90deg);
+  margin: 0 auto;
+}

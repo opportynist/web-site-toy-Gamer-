@@ -1,0 +1,35 @@
+.page2__company {
+  left: 0;
+  width: 56%;
+  height: 942px;
+}
+.page__conteiner {
+  padding-top: 89px;
+}
+
+.info__social {
+  margin-right: 61px;
+}
+
+
+.twoscrol_link__about::after {
+  content: "";
+  margin-left: 10px;
+  width: 15px;
+  height: 15px;
+
+  background-color: rgb(228, 13, 13);
+}
+
+.twoscrol_link__comands::after {
+  content: "";
+  margin-left: 10px;
+  width: 15px;
+  height: 15px;
+
+  background-color: rgb(5, 5, 5);
+}
+
+.scrol_about {
+  opacity: 0;
+}
