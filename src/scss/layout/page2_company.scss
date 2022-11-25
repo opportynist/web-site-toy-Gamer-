@@ -5,12 +5,15 @@
 }
 .page__conteiner {
   padding-top: 89px;
+  @media (max-width: 1025px) {
+    padding: 0px 23% 0px 8%;
+    max-width: 100%;
+  }
 }
 
 .info__social {
   margin-right: 61px;
 }
-
 
 .twoscrol_link__about::after {
   content: "";

@@ -1,7 +1,6 @@
 .page2 {
-  padding: 0px 0px 0px 97px;
-  width: 63%;
-  height: 942px;
+  width: 57%;
+  height: 850px;
   @media (max-width: 1025px) {
     width: 91%;
     height: 135%;
@@ -10,12 +9,20 @@
 .page__conteiner {
   padding: 100px 40px 0px 30px;
   justify-content: space-between;
+  @media (max-width: 1025px) {
+    padding: 0px 40px 0px 30px;
+  }
 }
 
 .bloc__text {
   padding-left: 66px;
-  width: 609px;
-  height: 512px;
+
+  @media (max-width: 1025px) {
+    padding: 0px 40px 0px 30px;
+  }
+  @media (max-width: 500px) {
+    padding: 0px 0px 0px 0px;
+  }
   p {
     padding: 0px 0px 20px 0px;
   }
@@ -25,39 +32,31 @@
 }
 .title {
 }
-.img__info {
-  padding-left: 181px;
+.picture__content {
+  padding: 0px 200px 0px 150px;
+  display: grid;
+  grid-template-columns: 220px 220px;
+  gap: 9% 18%;
+  @media (max-width: 1025px) {
+    padding: 100px 0px 0px 66px;
+  }
+  @media (max-width: 500px) {
+    padding: 50px 0px 0px 0px;
+    grid-template-columns: 116px 116px;
+  }
 }
 .img__bloc {
-  display: flex;
 }
-.icon__text {
-  padding: 0px 220px 0 0px;
+.content__block__text {
   h2 {
-    padding: 19px 0px 6px 0px;
-    font-family: "Akrobat";
-    font-style: normal;
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 55px;
-
-    color: #000000;
   }
   p {
-    font-family: "Akrobat";
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 30px;
-
-    color: #646464;
   }
 }
 .icon__text :last-child {
   padding: 0px 0px 0px 0px;
 }
-.img {
-  margin: 45px 0px 0px 0px;
+.content__block__img {
   width: 137px;
   height: 137px;
   box-shadow: 30px -10px #f2e33a;
@@ -65,10 +64,23 @@
 
   background: #e8d935;
   padding: 33px;
+  @media (max-width: 500px) {
+    width: 100px;
+    height: 100px;
+  }
+  img {
+    max-width: 100%;
+  }
 }
 .img__title {
+  padding: 16px 0px 5px 0px;
+  font-family: "Akrobat";
+  font-size: 40px;
 }
 .img__text {
+  font-family: "Akrobat";
+
+  color: #646464;
 }
 .link__page {
   a {
@@ -122,8 +134,18 @@
 }
 
 .mobyle__slider {
+  padding: 230px 0px 0px 0px;
   @media (min-width: 1025px) {
     padding: 230px 0px 0px 0px;
     display: none;
+  }
+}
+.block_content {
+  display: flex;
+  @media (max-width: 1025px) {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 600px;
+    display: block;
   }
 }
